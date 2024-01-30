@@ -5,6 +5,7 @@ public class Main {
         int mileAmount = 20;
         int bonus = tiketPrace / mileAmount;
 
+        System.out.println("Стоимость билета: " + tiketPrace);
         System.out.println("Итого бонусных миль: " + bonus);
     }
 }
